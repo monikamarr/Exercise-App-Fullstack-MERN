@@ -1,0 +1,154 @@
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {
+  background-color: #f0ebce;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #395144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  padding: -1px;
+}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  text-align: center;
+}
+nav a {
+  margin-top: 5px;
+  margin: 10px;
+  color: #f0ebce;
+  border-radius: 10px;
+  border-width: 2px;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+  background-color: #aa8b56;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+nav a:hover {
+  background-color: #a9af7e;
+}
+i:hover {
+  cursor: pointer;
+}
+
+/*  ----- Page layout blocks -----  */
+header {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-family: fantasy;
+  font-size: medium;
+  font-weight: 100;
+  background-color: #a9af7e;
+  color: #395144;
+  margin-top: -5px;
+  border: none;
+}
+main {
+  background-color: #f0ebce;
+  color: #395144;
+  border: none;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+footer {
+  color: #557153;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  background-color: #a9af7e;
+  border: none;
+  margin-bottom: -5px;
+  font-weight: 100;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+/*  ----- Table ----- */
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #aa8b56;
+  font-family: "Courier New", Courier, monospace;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f0ebce;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #cfb997;
+}
+
+tr {
+  font-size: large;
+  border: none;
+  padding: 1%;
+}
+tr:hover {
+  box-shadow: 2px 2px 2px -2px #557153;
+}
+td {
+  border: none;
+  padding: 5px;
+}
+th {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #eeeeee;
+  border: none;
+}
+td:nth-child(2),
+td:nth-child(3) {
+  text-align: right;
+}
+
+/*  ----- Form ----- */
+form {
+  text-align: center;
+}
+button {
+  background-color: #aa8b56;
+  color: #f0ebce;
+  border-radius: 10px;
+  border-width: 2px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #f0ebce;
+  color: #aa8b56;
+}
+input {
+  background-color: #f0ebce;
+}
+select {
+  background-color: #f0ebce;
+}
+
+@keyframes App-logo {
+}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {
+}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {
+}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {
+}
